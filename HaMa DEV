@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ku" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>دابەزاندنی جارڤیسی کوردی</title>
+    <style>
+        body {
+            font-family: Tahoma, sans-serif;
+            background-color: #0f172a;
+            color: #ffffff;
+            text-align: center;
+            padding-top: 100px;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: #1e293b;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+        }
+        h1 {
+            color: #38bdf8;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 18px;
+            color: #94a3b8;
+            margin-bottom: 30px;
+        }
+        .download-btn {
+            display: inline-block;
+            background-color: #22c55e;
+            color: white;
+            padding: 15px 30px;
+            font-size: 18px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+        .download-btn:hover {
+            background-color: #16a34a;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>دابەزاندنی جارڤیسی کوردی زۆر بەهێز</h1>
+        <p>لەلایەن حەمە دێڤ و ئەنەس دێڤەوە دروست کراون</p>
+        
+        <!-- لێرەدا دەتوانیت ناوی فایلی rarـەکەی خۆت دابنێیت -->
+        <a href="jarvis.rar" class="download-btn">کرتە لێرە بکە بۆ دابەزاندنی جارڤیس</a>
+    </div>
+
+</body>
+</html>
