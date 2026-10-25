@@ -10,7 +10,7 @@
             background-color: #0f172a;
             color: #ffffff;
             text-align: center;
-            padding-top: 100px;
+            padding-top: 80px;
         }
         .container {
             max-width: 600px;
@@ -23,26 +23,33 @@
         h1 {
             color: #38bdf8;
             font-size: 24px;
-            margin-bottom: 20px;
+            margin-bottom: 15px;
         }
         p {
-            font-size: 18px;
+            font-size: 16px;
             color: #94a3b8;
             margin-bottom: 30px;
         }
         .download-btn {
-            display: inline-block;
+            display: block;
             background-color: #22c55e;
             color: white;
-            padding: 15px 30px;
+            padding: 15px 20px;
             font-size: 18px;
             text-decoration: none;
             border-radius: 8px;
             font-weight: bold;
+            margin-bottom: 15px;
             transition: background 0.3s;
         }
         .download-btn:hover {
             background-color: #16a34a;
+        }
+        .btn-anas {
+            background-color: #0284c7;
+        }
+        .btn-anas:hover {
+            background-color: #0369a1;
         }
     </style>
 </head>
@@ -52,8 +59,11 @@
         <h1>دابەزاندنی جارڤیسی کوردی زۆر بەهێز</h1>
         <p>لەلایەن حەمە دێڤ و ئەنەس دێڤەوە دروست کراون</p>
         
-        <!-- لێرەدا دەتوانیت ناوی فایلی rarـەکەی خۆت دابنێیت -->
-        <a href="jarvis.rar" class="download-btn">کرتە لێرە بکە بۆ دابەزاندنی جارڤیس</a>
+        <!-- دوگمەی دابەزاندنی حەمە دێڤ -->
+        <a href="https://drive.google.com/file/d/1RNcyCv_YzFyQPwUyBJ0WhNeQf2p4dht_/view?usp=drive_link" class="download-btn" target="_blank">دابەزاندن لەلایەن حەمە دێڤەوە</a>
+        
+        <!-- دوگمەی دابەزاندنی ئەنەس دێڤ -->
+        <a href="https://drive.google.com/file/d/115RHnkuqVK-ubUNvRBPO4ZmFm3WHMLjx/view?usp=drive_link" class="download-btn btn-anas" target="_blank">دابەزاندن لەلایەن ئەنەس دێڤەوە</a>
     </div>
 
 </body>
